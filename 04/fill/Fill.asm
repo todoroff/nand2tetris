@@ -51,7 +51,7 @@ M = D // n = 8192 (number of 16bit words that make up the whole screen)
 			@n
 			D = D-M
 			@EXITFIL
-			D;JEQ //if i==n goto 70
+			D;JEQ //if i==n goto EXITFIL
 
 			@addr
 			A = M
@@ -94,7 +94,7 @@ M = D // n = 8192 (number of 16bit words that make up the whole screen)
 			@n
 			D = D-M
 			@EXITUNFIL
-			D;JEQ //if i==n goto 70
+			D;JEQ //if i==n goto EXITUNFIL
 
 			@addr
 			A = M

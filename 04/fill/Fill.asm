@@ -17,8 +17,8 @@ D = A
 @addr
 M = D //addr = 16384 (screen's base address)
 
-@flag //default = 0; 
-	  //flag = 1 means screen was filled in previous iteration
+@flag //default == 0; 
+	  //flag == 1 means screen was filled in previous iteration
 	  //to reduce memory read/write
 M = 0
 
